@@ -26,3 +26,27 @@ body {
   border: 2px solid #fff;
   border-radius: 1rem;
 }
+
+.buttons {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 0.8rem;
+  background-color: #eeeeeeb3;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #5f5e5e;
+  border: 2px solid #5f5e5e;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: -1px 1px 8px #e7e3e3;
+}
+
+.btn:hover {
+  background-color: #eeeeee;
+  transform: scale(1.05);
+}
